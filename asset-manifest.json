@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/IndiaNews/static/js/main.c1e68266.js",
+    "main.js": "/IndiaNews/static/js/main.28ff5704.js",
     "index.html": "/IndiaNews/index.html",
-    "main.c1e68266.js.map": "/IndiaNews/static/js/main.c1e68266.js.map"
+    "main.28ff5704.js.map": "/IndiaNews/static/js/main.28ff5704.js.map"
   },
   "entrypoints": [
-    "static/js/main.c1e68266.js"
+    "static/js/main.28ff5704.js"
   ]
 }
