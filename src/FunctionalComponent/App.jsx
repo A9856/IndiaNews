@@ -14,7 +14,7 @@ export default function App() {
   }
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.NODE_ENV === "production" ? "/IndiaNews/" :'/'}>
         <Navbar getLanguage={getLanguage} getSearch={getSearch} />
         <Routes>
           <Route path='' element={<Home language={language} q={search ? search : "All"} />} />
