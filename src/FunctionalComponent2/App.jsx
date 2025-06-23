@@ -7,8 +7,8 @@ export default function App() {
   
   return (
     <>
-      {/* <BrowserRouter basename={process.env.NODE_ENV === "production" ? "/NewsWeb/" :'/'}> */}
-      <BrowserRouter basename='/IndiaNews/'>
+      <BrowserRouter basename={process.env.NODE_ENV === "production" ? "/IndiaNews/" :'/'}>
+      
         <Navbar />
         <Routes>
           <Route path='' element={<Home/>} />
